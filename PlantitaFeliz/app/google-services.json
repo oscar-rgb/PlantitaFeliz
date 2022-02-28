@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766507500190",
+    "firebase_url": "https://plantita-feliz-default-rtdb.firebaseio.com",
+    "project_id": "plantita-feliz",
+    "storage_bucket": "plantita-feliz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766507500190:android:00ac6565d743ccc7df718f",
+        "android_client_info": {
+          "package_name": "com.example.plantitafeliz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766507500190-eur2tfhmp74ss8ct61l1e3gu8e7o3gc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApikEqfIIzurK_vl1nQng9GqTbpp7jJn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766507500190-eur2tfhmp74ss8ct61l1e3gu8e7o3gc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

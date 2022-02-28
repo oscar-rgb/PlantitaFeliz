@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="com.example.plantitafeliz.ui.home.HomeFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.plantitafeliz.ui.gallery.GalleryFragment"
+        android:label="@string/menu_dispositivo"
+        tools:layout="@layout/fragment_dispositivo" />
+
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="com.example.plantitafeliz.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_informa"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.example.plantitafeliz.ConfigFragment"
+        android:label="fragment_config"
+        tools:layout="@layout/fragment_config" />
+    <fragment
+        android:id="@+id/nav_bitacora"
+        android:name="com.example.plantitafeliz.DispositivoFragment"
+        android:label="fragment_bitacora"
+        tools:layout="@layout/fragment_bitacora" />
+    <fragment
+        android:id="@+id/nav_dispositivos"
+        android:name="com.example.plantitafeliz.DispositivosFragment"
+        android:label="fragment_dispositivos"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/nav_preguntasd"
+        android:name="com.example.plantitafeliz.PreguntasdFragment"
+        android:label="fragment_preguntasd"
+        tools:layout="@layout/fragment_preguntasd" />
+</navigation>
